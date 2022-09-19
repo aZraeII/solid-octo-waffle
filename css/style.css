@@ -247,7 +247,9 @@ body {
   margin-bottom: 35px;
 }
 .news-img {
-  max-width: 100%;
+  max-width: 100%; 
+}
+.news-img-first {
   margin-top: 41px;
 }
 .news-items {
