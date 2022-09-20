@@ -283,8 +283,42 @@ body {
   .trends-box {
     margin: 0 20px 0px 20px;
   }
-  @media (min-width: 1200px) {
+}
+@media (min-width: 1200px) {
 
+}
+@media (orientation: landscape) and (max-width: 640px) {
+  .main-trends-item {
+    min-height: 230px;
+    width: calc(50% - 1.5px);
+  }
+  .trends-wood, .trends-stown {
+    margin-right: 3px;
+  }  
+}
+@media (orientation: landscape) and (min-width: 641px) and (max-width: 1199px) {
+  .main-trends-item {
+    min-height: 260px;
+    width: calc(25% - 3px);
+  }
+  .trends-wood, .trends-stown, .trends-chees {
+    margin-right: 3px;
+  }
+  .trends-link {
+    font-size: 12px;
+  }
+  .trends-items {
+    margin: 5px 10px 5px 10px;
+  }
+  .main-trends-title {
+    font-size: 14px;
+    margin: 5px 10px 5px 10px;
+  }
+  .trends-box {
+    margin: 0 10px 0px 10px;
+  }
+  .trends-item {
+    margin-right: 10px;
   }
 }
 /*news*************************************************/
