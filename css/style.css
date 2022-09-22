@@ -89,10 +89,52 @@ body {
     margin-right: 75px;
     margin-left: 75px;
     margin-top: 85px;
-    font-weight: bold;
   }
-  @media (min-width: 1200px) {
-
+}
+@media (min-width: 1200px) {
+  .menu-button {
+    display: none;
+  }
+  .header {
+    background-image: url("../images/banner-bg.jpg");
+    height: 450px;
+    width: 1660px;
+    background-size: 100%;
+    margin: 0 auto;
+    background-position: center top;
+  }
+  .header-navigation {
+    display: flex;
+  }
+  .header-items {
+    margin-top: 45px;
+    margin-right: 245px;
+  }
+  .header-item {
+    display: inline;
+    margin-left: 32px;
+  }
+  .header-item-link {
+    color: white;
+    font-weight: normal;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+  .header-item-link:hover {
+    text-decoration: underline;
+  }
+  .logo {
+    width: 183px;
+    padding-top: 0px;
+    margin: -35px auto 0 245px;
+  }
+  .header-title {
+    font-size: 45px;
+    line-height: 75px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    width: 690px;
   }
 }
 /*burger***********************************************/
@@ -283,9 +325,26 @@ body {
   .trends-box {
     margin: 0 20px 0px 20px;
   }
+  .menu-button {
+    margin-top: 53px;
+    margin-right: 35px;
+  }
 }
 @media (min-width: 1200px) {
-
+  .grand-titls {
+    font-size: 20px;
+  }
+  .main-title {
+    margin-top: 64px;
+    margin-bottom: 48px;
+  }
+  .main-trends-item {
+    min-height: 320px;
+    width: calc(25% - 3px);
+  }
+  .trends-wood, .trends-stown, .trends-chees {
+    margin-right: 3px;
+  }
 }
 @media (orientation: landscape) and (max-width: 640px) {
   .main-trends-item {
