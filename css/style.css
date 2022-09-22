@@ -338,6 +338,10 @@ body {
     margin-top: 64px;
     margin-bottom: 48px;
   }
+  .main-trends-title {
+    font-size: 20px;
+    line-height: 40px;
+  }
   .main-trends-item {
     min-height: 320px;
     width: calc(25% - 3px);
@@ -452,13 +456,13 @@ body {
     margin-right: 35px;
     margin-left: 35px;
   }
-    .news-img-first {
+  .news-img-first {
     margin-top: 0px;
   }
   .main-news {
     margin-top: 50px;
   }
-    .news-img {
+   .news-img {
     width: 100%; 
   }
   .main-news-article {
@@ -475,6 +479,47 @@ body {
   }
   .date-and-autor {
     margin-bottom: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-news {
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  .main-news-container {
+    width: calc(55% - 125px);
+    margin-right: 125px;
+    margin-left:0;
+  }
+  .news-img-first {
+    margin-top: 0px;
+  }
+  .news-img {
+    max-width: 100%;
+  }
+  .news-content {
+    width: 50%;
+    margin-left: 30px;
+    margin-top: -20px;
+  }
+  .main-news-article {
+    margin-bottom: 60px;
+    display: flex;
+    border: none;
+    flex-wrap: nowrap;
+  }
+  .news-main-title {
+    line-height: 24px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .news-text {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .date-and-autor {
+    margin-bottom: 40px;
   }
 }
 /*aside*******************************************************/
@@ -501,6 +546,20 @@ body {
   .main-aside-container {
     width: 271px;
     margin-right: 35px;
+    margin-top: -5px;
+    margin-left: 0px;
+  }
+  .article-new-posts {
+  margin-top: 21px;
+  }
+  .posts-titles, .mail-titles, .tegs-titles, .tems-titles {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1200px) {
+  .main-aside-container {
+    width: 16.3%;
+    margin-right: 0;
     margin-top: -5px;
     margin-left: 0px;
   }
@@ -742,6 +801,41 @@ body {
   .section-title {
     margin-top: 20px;
     margin-bottom: 3px;
+  }
+  .product-info {
+    margin-bottom: 24px;
+  }
+  .product-title {
+    margin-bottom: 27px;
+    margin-top: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .product-container{
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .products-list {
+    width: calc(100% - 30px);
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .product-wrp {
+    width: calc(33.33% - 40px);
+  }
+  .product-text {
+    border: 3px solid #b59f5b;
+    width: calc(100% - 20px);
+    height: 260px;
+    margin-top: -30px;
+  }
+  .section-title {
+    margin-top: 25px;
+    margin-bottom: 3px;
+  }
+  .product-img-wrp {
+    height: 202px;
   }
   .product-info {
     margin-bottom: 24px;
